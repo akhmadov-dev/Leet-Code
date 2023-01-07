@@ -24,12 +24,12 @@
  */
 
 /**
- * @param Integer $x
+ * @param Intger $x
  * @return Boolean
  */
 function isPalindrome($x)
 {
-    $array = str_split($x);
+    $array = str_split((string)$x);
     $array2 = array_reverse($array);
     $array_count = count($array);
 
@@ -43,4 +43,4 @@ function isPalindrome($x)
     return true;
 }
 
-echo isPalindrome(120);
+echo isPalindrome(121);
