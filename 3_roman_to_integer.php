@@ -48,8 +48,8 @@
 
 
 /**
- * @param String $s
- * @return Integer
+ * @param string $s
+ * @return integer
  */
 function romanToInt($s)
 {

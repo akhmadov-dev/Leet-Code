@@ -18,8 +18,8 @@
  */
 
 /**
- * @param String[] $strs
- * @return String
+ * @param array $strs
+ * @return string
  */
 function longestCommonPrefix($strs)
 {
