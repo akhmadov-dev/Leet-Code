@@ -24,8 +24,8 @@
  */
 
 /**
- * @param Intger $x
- * @return Boolean
+ * @param integer $x
+ * @return bool
  */
 function isPalindrome($x)
 {
